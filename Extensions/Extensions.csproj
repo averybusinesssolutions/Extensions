@@ -4,16 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <PackageId>AveryBusiness.Extensions</PackageId>
-	  <PackageVersion>1.0.0</PackageVersion>
-	  <Authors>Scott Avery</Authors>
-	  <Company>Avery Business</Company>
-	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
-	<ItemGroup>
-		<None Include="..\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt"/>
-	</ItemGroup>
-	<ItemGroup>
-		<None Include="..\README.md" Pack="true" PackagePath="README.md"/>
-	</ItemGroup>
+	<PropertyGroup>
+		<PackageId>AveryBusiness.Extensions</PackageId>
+		<PackageVersion>1.0.1</PackageVersion>
+		<Authors>Scott Avery</Authors>
+		<Company>Avery Business</Company>
+	</PropertyGroup>
 </Project>
